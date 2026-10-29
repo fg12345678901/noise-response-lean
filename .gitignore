@@ -1,0 +1,8 @@
+.lake/
+_verification/
+__pycache__/
+*.olean
+*.ilean
+*.c
+*.o
+*.exe

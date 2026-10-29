@@ -1,0 +1,2598 @@
+{
+  "theorem_count": 437,
+  "module_count": 81,
+  "theorems": [
+    {
+      "name": "NoiseResponse.Classification.abelKernel_norm_le_one",
+      "file": "NoiseResponse/AbelEndpoints.lean",
+      "line": 26
+    },
+    {
+      "name": "NoiseResponse.Classification.abelKernel_tendsto",
+      "file": "NoiseResponse/AbelEndpoints.lean",
+      "line": 43
+    },
+    {
+      "name": "NoiseResponse.Classification.abel_integral_endpoint",
+      "file": "NoiseResponse/AbelEndpoints.lean",
+      "line": 74
+    },
+    {
+      "name": "NoiseResponse.Classification.abel_integral_nyquist",
+      "file": "NoiseResponse/AbelEndpoints.lean",
+      "line": 105
+    },
+    {
+      "name": "NoiseResponse.Classification.flat_admissible_chart",
+      "file": "NoiseResponse/AdmissibleFlatGeometry.lean",
+      "line": 31
+    },
+    {
+      "name": "NoiseResponse.Classification.admissible_flat_parameters",
+      "file": "NoiseResponse/AdmissibleFlatGeometry.lean",
+      "line": 65
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.admissible_flat_iff_matrix_potentials",
+      "file": "NoiseResponse/AdmissibleFlatGeometry.lean",
+      "line": 87
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.admissible_flat_spectral_necessity",
+      "file": "NoiseResponse/AdmissibleFlatGeometry.lean",
+      "line": 104
+    },
+    {
+      "name": "NoiseResponse.Classification.probeEmbeddingCLM_apply",
+      "file": "NoiseResponse/AffineFlatGeometry.lean",
+      "line": 31
+    },
+    {
+      "name": "NoiseResponse.Classification.probeEmbedding_smooth",
+      "file": "NoiseResponse/AffineFlatGeometry.lean",
+      "line": 34
+    },
+    {
+      "name": "NoiseResponse.Classification.probeEmbedding_length",
+      "file": "NoiseResponse/AffineFlatGeometry.lean",
+      "line": 37
+    },
+    {
+      "name": "NoiseResponse.Classification.probeEmbedding_axis_nonzero",
+      "file": "NoiseResponse/AffineFlatGeometry.lean",
+      "line": 48
+    },
+    {
+      "name": "NoiseResponse.Classification.probeResidual_smooth",
+      "file": "NoiseResponse/AffineFlatGeometry.lean",
+      "line": 70
+    },
+    {
+      "name": "NoiseResponse.Classification.probeResidual_clean",
+      "file": "NoiseResponse/AffineFlatGeometry.lean",
+      "line": 74
+    },
+    {
+      "name": "NoiseResponse.Classification.probeResidual_derivative",
+      "file": "NoiseResponse/AffineFlatGeometry.lean",
+      "line": 77
+    },
+    {
+      "name": "NoiseResponse.Classification.probeResidual_clean_kernel",
+      "file": "NoiseResponse/AffineFlatGeometry.lean",
+      "line": 88
+    },
+    {
+      "name": "NoiseResponse.Classification.probeContraction_formula",
+      "file": "NoiseResponse/AffineFlatGeometry.lean",
+      "line": 99
+    },
+    {
+      "name": "NoiseResponse.Classification.probe_uniform_stable_chart",
+      "file": "NoiseResponse/AffineFlatGeometry.lean",
+      "line": 107
+    },
+    {
+      "name": "NoiseResponse.Classification.tangent_composition_hasDerivAt",
+      "file": "NoiseResponse/AxisResponse.lean",
+      "line": 19
+    },
+    {
+      "name": "NoiseResponse.Classification.tangent_readout_hasDerivAt",
+      "file": "NoiseResponse/AxisResponse.lean",
+      "line": 34
+    },
+    {
+      "name": "NoiseResponse.Classification.radial_readout_hasDerivAt",
+      "file": "NoiseResponse/AxisResponse.lean",
+      "line": 67
+    },
+    {
+      "name": "NoiseResponse.Geometry.complexifyCLM_apply",
+      "file": "NoiseResponse/CanonicalMatrixGeometry.lean",
+      "line": 26
+    },
+    {
+      "name": "NoiseResponse.Geometry.complexify_mul",
+      "file": "NoiseResponse/CanonicalMatrixGeometry.lean",
+      "line": 28
+    },
+    {
+      "name": "NoiseResponse.Geometry.complexify_transpose",
+      "file": "NoiseResponse/CanonicalMatrixGeometry.lean",
+      "line": 33
+    },
+    {
+      "name": "NoiseResponse.Geometry.complexify_adjoint",
+      "file": "NoiseResponse/CanonicalMatrixGeometry.lean",
+      "line": 35
+    },
+    {
+      "name": "NoiseResponse.Geometry.complexify_smul",
+      "file": "NoiseResponse/CanonicalMatrixGeometry.lean",
+      "line": 39
+    },
+    {
+      "name": "NoiseResponse.Geometry.complexify_one",
+      "file": "NoiseResponse/CanonicalMatrixGeometry.lean",
+      "line": 42
+    },
+    {
+      "name": "NoiseResponse.Geometry.normalProjector_properties",
+      "file": "NoiseResponse/CanonicalMatrixGeometry.lean",
+      "line": 51
+    },
+    {
+      "name": "NoiseResponse.Geometry.complexify_contDiffAt",
+      "file": "NoiseResponse/CanonicalMatrixGeometry.lean",
+      "line": 67
+    },
+    {
+      "name": "NoiseResponse.Geometry.complexify_fderiv",
+      "file": "NoiseResponse/CanonicalMatrixGeometry.lean",
+      "line": 72
+    },
+    {
+      "name": "NoiseResponse.Geometry.normalProjector_contDiffAt",
+      "file": "NoiseResponse/CanonicalMatrixGeometry.lean",
+      "line": 79
+    },
+    {
+      "name": "NoiseResponse.Classification.fourier_one_nyquist",
+      "file": "NoiseResponse/CircleEndpoints.lean",
+      "line": 16
+    },
+    {
+      "name": "NoiseResponse.Classification.fourier_nat_nyquist",
+      "file": "NoiseResponse/CircleEndpoints.lean",
+      "line": 21
+    },
+    {
+      "name": "NoiseResponse.Classification.fourier_one_injective",
+      "file": "NoiseResponse/CircleEndpoints.lean",
+      "line": 28
+    },
+    {
+      "name": "NoiseResponse.Classification.zero_endpoint_preimage",
+      "file": "NoiseResponse/CircleEndpoints.lean",
+      "line": 34
+    },
+    {
+      "name": "NoiseResponse.Classification.nyquist_endpoint_preimage",
+      "file": "NoiseResponse/CircleEndpoints.lean",
+      "line": 41
+    },
+    {
+      "name": "NoiseResponse.Classification.nyquist_ne_zero",
+      "file": "NoiseResponse/CircleEndpoints.lean",
+      "line": 48
+    },
+    {
+      "name": "NoiseResponse.Classification.axis_closedness_implies_ode",
+      "file": "NoiseResponse/ClassificationAlgebra.lean",
+      "line": 24
+    },
+    {
+      "name": "NoiseResponse.Classification.endpoint_constants",
+      "file": "NoiseResponse/ClassificationAlgebra.lean",
+      "line": 43
+    },
+    {
+      "name": "NoiseResponse.Classification.endpoint_partial_fractions",
+      "file": "NoiseResponse/ClassificationAlgebra.lean",
+      "line": 49
+    },
+    {
+      "name": "NoiseResponse.Classification.scalar_of_all_wedges_zero",
+      "file": "NoiseResponse/ClassificationAlgebra.lean",
+      "line": 63
+    },
+    {
+      "name": "NoiseResponse.Sufficiency.complexMul_contDiffAt",
+      "file": "NoiseResponse/ClassifiedPotentialCalculus.lean",
+      "line": 55
+    },
+    {
+      "name": "NoiseResponse.Sufficiency.parts_contDiffAt",
+      "file": "NoiseResponse/ClassifiedPotentialCalculus.lean",
+      "line": 63
+    },
+    {
+      "name": "NoiseResponse.Sufficiency.fullPotential_contDiffAt",
+      "file": "NoiseResponse/ClassifiedPotentialCalculus.lean",
+      "line": 88
+    },
+    {
+      "name": "NoiseResponse.Sufficiency.fullPotential_gradient_identity",
+      "file": "NoiseResponse/ClassifiedPotentialCalculus.lean",
+      "line": 97
+    },
+    {
+      "name": "NoiseResponse.Classification.tracePairCLM_apply",
+      "file": "NoiseResponse/ClassifiedSpectralIntegral.lean",
+      "line": 25
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.classified_test_integral",
+      "file": "NoiseResponse/ClassifiedSpectralIntegral.lean",
+      "line": 29
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.classified_continuous_test_integral",
+      "file": "NoiseResponse/ClassifiedSpectralIntegral.lean",
+      "line": 59
+    },
+    {
+      "name": "NoiseResponse.ConstantRank.gram_isUnit",
+      "file": "NoiseResponse/ConstantRankProjector.lean",
+      "line": 24
+    },
+    {
+      "name": "NoiseResponse.ConstantRank.rangeProjector_properties",
+      "file": "NoiseResponse/ConstantRankProjector.lean",
+      "line": 34
+    },
+    {
+      "name": "NoiseResponse.ConstantRank.transposeCLM_apply",
+      "file": "NoiseResponse/ConstantRankProjector.lean",
+      "line": 65
+    },
+    {
+      "name": "NoiseResponse.ConstantRank.realMulCLM_apply",
+      "file": "NoiseResponse/ConstantRankProjector.lean",
+      "line": 74
+    },
+    {
+      "name": "NoiseResponse.ConstantRank.realMul_contDiffAt",
+      "file": "NoiseResponse/ConstantRankProjector.lean",
+      "line": 77
+    },
+    {
+      "name": "NoiseResponse.ConstantRank.rangeProjector_contDiffAt",
+      "file": "NoiseResponse/ConstantRankProjector.lean",
+      "line": 84
+    },
+    {
+      "name": "NoiseResponse.ConstantRank.frame_spans_near",
+      "file": "NoiseResponse/ConstantRankProjector.lean",
+      "line": 97
+    },
+    {
+      "name": "NoiseResponse.ConstantRank.exists_fixed_frame",
+      "file": "NoiseResponse/ConstantRankProjector.lean",
+      "line": 119
+    },
+    {
+      "name": "NoiseResponse.ConstantRank.idempotent_covers_matrix",
+      "file": "NoiseResponse/ConstantRankProjector.lean",
+      "line": 136
+    },
+    {
+      "name": "NoiseResponse.ConstantRank.exists_smooth_normal_projector",
+      "file": "NoiseResponse/ConstantRankProjector.lean",
+      "line": 147
+    },
+    {
+      "name": "NoiseResponse.ConstantRank.symmetric_projector_unique",
+      "file": "NoiseResponse/ConstantRankProjector.lean",
+      "line": 175
+    },
+    {
+      "name": "NoiseResponse.ConstantRank.normalProjector_properties",
+      "file": "NoiseResponse/ConstantRankProjector.lean",
+      "line": 187
+    },
+    {
+      "name": "NoiseResponse.ConstantRank.normalProjector_contDiffAt",
+      "file": "NoiseResponse/ConstantRankProjector.lean",
+      "line": 205
+    },
+    {
+      "name": "NoiseResponse.Classification.density_zero_of_continuous_tests",
+      "file": "NoiseResponse/ContinuousDensityUniqueness.lean",
+      "line": 20
+    },
+    {
+      "name": "NoiseResponse.Curvature.mixed_jets_cancel",
+      "file": "NoiseResponse/CurvatureAlgebra.lean",
+      "line": 45
+    },
+    {
+      "name": "NoiseResponse.Curvature.herm_real_smul",
+      "file": "NoiseResponse/CurvatureAlgebra.lean",
+      "line": 60
+    },
+    {
+      "name": "NoiseResponse.Curvature.herm_commutator",
+      "file": "NoiseResponse/CurvatureAlgebra.lean",
+      "line": 65
+    },
+    {
+      "name": "NoiseResponse.Curvature.gram_jet_hermitian",
+      "file": "NoiseResponse/CurvatureAlgebra.lean",
+      "line": 76
+    },
+    {
+      "name": "NoiseResponse.Curvature.resolvent_skew",
+      "file": "NoiseResponse/CurvatureAlgebra.lean",
+      "line": 82
+    },
+    {
+      "name": "NoiseResponse.Curvature.transfer_jet_solve",
+      "file": "NoiseResponse/CurvatureAlgebra.lean",
+      "line": 92
+    },
+    {
+      "name": "NoiseResponse.Curvature.herm_transfer",
+      "file": "NoiseResponse/CurvatureAlgebra.lean",
+      "line": 99
+    },
+    {
+      "name": "NoiseResponse.Curvature.curvature_kernel",
+      "file": "NoiseResponse/CurvatureAlgebra.lean",
+      "line": 112
+    },
+    {
+      "name": "NoiseResponse.Curvature.local_curvature_jet",
+      "file": "NoiseResponse/CurvatureAlgebra.lean",
+      "line": 132
+    },
+    {
+      "name": "NoiseResponse.Curvature.response_hasDerivAt",
+      "file": "NoiseResponse/CurvatureCalculus.lean",
+      "line": 27
+    },
+    {
+      "name": "NoiseResponse.Curvature.fderiv_line_hasDerivAt",
+      "file": "NoiseResponse/CurvatureCalculus.lean",
+      "line": 52
+    },
+    {
+      "name": "NoiseResponse.Curvature.transfer_differentiated",
+      "file": "NoiseResponse/CurvatureCalculus.lean",
+      "line": 70
+    },
+    {
+      "name": "NoiseResponse.Curvature.local_curvature",
+      "file": "NoiseResponse/CurvatureCalculus.lean",
+      "line": 100
+    },
+    {
+      "name": "NoiseResponse.Curvature.frequency_skew",
+      "file": "NoiseResponse/CurvatureCalculus.lean",
+      "line": 153
+    },
+    {
+      "name": "NoiseResponse.Curvature.frequencyZ_skew",
+      "file": "NoiseResponse/CurvatureCalculus.lean",
+      "line": 161
+    },
+    {
+      "name": "NoiseResponse.Curvature.frequency_curvature",
+      "file": "NoiseResponse/CurvatureCalculus.lean",
+      "line": 170
+    },
+    {
+      "name": "NoiseResponse.TraceSeries.traceLeftCLM_apply",
+      "file": "NoiseResponse/CyclicTraceSeries.lean",
+      "line": 26
+    },
+    {
+      "name": "NoiseResponse.TraceSeries.traceLeftCLM_norm",
+      "file": "NoiseResponse/CyclicTraceSeries.lean",
+      "line": 29
+    },
+    {
+      "name": "NoiseResponse.TraceSeries.trace_power_derivative",
+      "file": "NoiseResponse/CyclicTraceSeries.lean",
+      "line": 34
+    },
+    {
+      "name": "NoiseResponse.TraceSeries.primitiveTerm_derivative",
+      "file": "NoiseResponse/CyclicTraceSeries.lean",
+      "line": 61
+    },
+    {
+      "name": "NoiseResponse.TraceSeries.coefficientSeries_summable",
+      "file": "NoiseResponse/CyclicTraceSeries.lean",
+      "line": 68
+    },
+    {
+      "name": "NoiseResponse.TraceSeries.primitiveTerm_summable",
+      "file": "NoiseResponse/CyclicTraceSeries.lean",
+      "line": 77
+    },
+    {
+      "name": "NoiseResponse.TraceSeries.coefficientSeries_analyticAt",
+      "file": "NoiseResponse/CyclicTraceSeries.lean",
+      "line": 95
+    },
+    {
+      "name": "NoiseResponse.TraceSeries.tracePrimitive_hasFDerivAt",
+      "file": "NoiseResponse/CyclicTraceSeries.lean",
+      "line": 114
+    },
+    {
+      "name": "NoiseResponse.TraceSeries.tracePrimitive_contDiffAt",
+      "file": "NoiseResponse/CyclicTraceSeries.lean",
+      "line": 146
+    },
+    {
+      "name": "NoiseResponse.Classification.diagonalScalarMeasure_finite",
+      "file": "NoiseResponse/DiagonalScalarMeasure.lean",
+      "line": 23
+    },
+    {
+      "name": "NoiseResponse.Classification.diagonalScalarMeasure_set_real",
+      "file": "NoiseResponse/DiagonalScalarMeasure.lean",
+      "line": 30
+    },
+    {
+      "name": "NoiseResponse.Classification.diagonalScalarMeasure_set_integral",
+      "file": "NoiseResponse/DiagonalScalarMeasure.lean",
+      "line": 44
+    },
+    {
+      "name": "NoiseResponse.Classification.diagonalScalarMeasure_test_integral",
+      "file": "NoiseResponse/DiagonalScalarMeasure.lean",
+      "line": 64
+    },
+    {
+      "name": "NoiseResponse.Classification.positiveEndpointPath_bounds",
+      "file": "NoiseResponse/EndpointPaths.lean",
+      "line": 17
+    },
+    {
+      "name": "NoiseResponse.Classification.positiveEndpointPath_mem",
+      "file": "NoiseResponse/EndpointPaths.lean",
+      "line": 25
+    },
+    {
+      "name": "NoiseResponse.Classification.negativeEndpointPath_mem",
+      "file": "NoiseResponse/EndpointPaths.lean",
+      "line": 29
+    },
+    {
+      "name": "NoiseResponse.Classification.positiveEndpointPath_tendsto",
+      "file": "NoiseResponse/EndpointPaths.lean",
+      "line": 34
+    },
+    {
+      "name": "NoiseResponse.Classification.negativeEndpointPath_tendsto",
+      "file": "NoiseResponse/EndpointPaths.lean",
+      "line": 39
+    },
+    {
+      "name": "NoiseResponse.Classification.traceRealCLM_apply",
+      "file": "NoiseResponse/EndpointPotentialCalculus.lean",
+      "line": 26
+    },
+    {
+      "name": "NoiseResponse.Classification.nyquist_resolvent_derivative",
+      "file": "NoiseResponse/EndpointPotentialCalculus.lean",
+      "line": 31
+    },
+    {
+      "name": "NoiseResponse.Classification.nyquist_product_derivative",
+      "file": "NoiseResponse/EndpointPotentialCalculus.lean",
+      "line": 58
+    },
+    {
+      "name": "NoiseResponse.Classification.nyquist_potential_derivative",
+      "file": "NoiseResponse/EndpointPotentialCalculus.lean",
+      "line": 81
+    },
+    {
+      "name": "NoiseResponse.Classification.nyquist_response_coefficient",
+      "file": "NoiseResponse/EndpointPotentialCalculus.lean",
+      "line": 101
+    },
+    {
+      "name": "NoiseResponse.Classification.nyquist_resolvent_hermitian",
+      "file": "NoiseResponse/EndpointPotentialCalculus.lean",
+      "line": 144
+    },
+    {
+      "name": "NoiseResponse.Classification.nyquist_gradient_identity",
+      "file": "NoiseResponse/EndpointPotentialCalculus.lean",
+      "line": 158
+    },
+    {
+      "name": "NoiseResponse.Examples.nonzero_curvature_entry",
+      "file": "NoiseResponse/Examples.lean",
+      "line": 21
+    },
+    {
+      "name": "NoiseResponse.Examples.nonzero_transfer_qualifications",
+      "file": "NoiseResponse/Examples.lean",
+      "line": 29
+    },
+    {
+      "name": "NoiseResponse.Examples.zero_pair_potentials",
+      "file": "NoiseResponse/Examples.lean",
+      "line": 51
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.projector_properties",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 24
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.projector_covers",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 32
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.projector_range",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 36
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.canonical_projector",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 56
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.projector_rank",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 65
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.column_rank",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 68
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.projector_norm",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 74
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.column_gram",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 80
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.column_filter",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 88
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.column_stable",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 95
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.columnCLM_apply",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 106
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.tangent_branch",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 120
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.branch_normal",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 124
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.residual_clean",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 128
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.residual_contDiffAt",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 131
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.residual_hasFDerivAt",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 139
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.residual_jacobian",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 151
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.residual_kernel",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 159
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.branch_tangent_kernel",
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "line": 167
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.inclusion_isometry",
+      "file": "NoiseResponse/FlatAmbientResponse.lean",
+      "line": 22
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.inclusion_column",
+      "file": "NoiseResponse/FlatAmbientResponse.lean",
+      "line": 27
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.inclusion_projector",
+      "file": "NoiseResponse/FlatAmbientResponse.lean",
+      "line": 32
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.ambient_transfer",
+      "file": "NoiseResponse/FlatAmbientResponse.lean",
+      "line": 38
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.ambient_coefficient",
+      "file": "NoiseResponse/FlatAmbientResponse.lean",
+      "line": 50
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.complexColumnCLM_apply",
+      "file": "NoiseResponse/FlatAmbientResponse.lean",
+      "line": 64
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.column_field_fderiv",
+      "file": "NoiseResponse/FlatAmbientResponse.lean",
+      "line": 66
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.measured_ambient_eq_flat",
+      "file": "NoiseResponse/FlatAmbientResponse.lean",
+      "line": 74
+    },
+    {
+      "name": "NoiseResponse.FlatBridge.realColumnCLM_apply",
+      "file": "NoiseResponse/FlatFieldBridge.lean",
+      "line": 27
+    },
+    {
+      "name": "NoiseResponse.FlatBridge.full_column_projector",
+      "file": "NoiseResponse/FlatFieldBridge.lean",
+      "line": 29
+    },
+    {
+      "name": "NoiseResponse.FlatBridge.column_projector",
+      "file": "NoiseResponse/FlatFieldBridge.lean",
+      "line": 41
+    },
+    {
+      "name": "NoiseResponse.FlatBridge.column_rank",
+      "file": "NoiseResponse/FlatFieldBridge.lean",
+      "line": 46
+    },
+    {
+      "name": "NoiseResponse.FlatBridge.normalColumn_gram",
+      "file": "NoiseResponse/FlatFieldBridge.lean",
+      "line": 52
+    },
+    {
+      "name": "NoiseResponse.FlatBridge.column_normalFilter",
+      "file": "NoiseResponse/FlatFieldBridge.lean",
+      "line": 58
+    },
+    {
+      "name": "NoiseResponse.FlatBridge.column_filter_stable",
+      "file": "NoiseResponse/FlatFieldBridge.lean",
+      "line": 65
+    },
+    {
+      "name": "NoiseResponse.FlatBridge.column_transfer",
+      "file": "NoiseResponse/FlatFieldBridge.lean",
+      "line": 70
+    },
+    {
+      "name": "NoiseResponse.FlatBridge.column_admissible",
+      "file": "NoiseResponse/FlatFieldBridge.lean",
+      "line": 104
+    },
+    {
+      "name": "NoiseResponse.Classification.normal_power_integrable",
+      "file": "NoiseResponse/FlatMatrixNecessity.lean",
+      "line": 19
+    },
+    {
+      "name": "NoiseResponse.Classification.integral_rankOne_response",
+      "file": "NoiseResponse/FlatMatrixNecessity.lean",
+      "line": 35
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.flatMatrixResponse_eq_spectral",
+      "file": "NoiseResponse/FlatMatrixNecessity.lean",
+      "line": 72
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.matrix_potentials_imply_spectral_potentials",
+      "file": "NoiseResponse/FlatMatrixNecessity.lean",
+      "line": 87
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.matrix_flat_necessity",
+      "file": "NoiseResponse/FlatMatrixNecessity.lean",
+      "line": 106
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.rankOneC_symmetric",
+      "file": "NoiseResponse/FlatResponseRealization.lean",
+      "line": 37
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.pair_moment_coefficients",
+      "file": "NoiseResponse/FlatResponseRealization.lean",
+      "line": 45
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.affine_response_eq_pair",
+      "file": "NoiseResponse/FlatResponseRealization.lean",
+      "line": 86
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.all_flat_implies_rank_one",
+      "file": "NoiseResponse/FlatResponseRealization.lean",
+      "line": 123
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.flatSpectralResponse_eq_moment",
+      "file": "NoiseResponse/FlatSpectralResponse.lean",
+      "line": 33
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.spectral_potentials_imply_moment_potentials",
+      "file": "NoiseResponse/FlatSpectralResponse.lean",
+      "line": 71
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.flat_spectral_measure_necessity",
+      "file": "NoiseResponse/FlatSpectralResponse.lean",
+      "line": 90
+    },
+    {
+      "name": "NoiseResponse.Classification.flatResidual_clean",
+      "file": "NoiseResponse/FlatUpdateGeometry.lean",
+      "line": 25
+    },
+    {
+      "name": "NoiseResponse.Classification.flatResidual_contDiffAt",
+      "file": "NoiseResponse/FlatUpdateGeometry.lean",
+      "line": 28
+    },
+    {
+      "name": "NoiseResponse.Classification.flatResidual_derivative",
+      "file": "NoiseResponse/FlatUpdateGeometry.lean",
+      "line": 33
+    },
+    {
+      "name": "NoiseResponse.Classification.flatResidual_clean_kernel",
+      "file": "NoiseResponse/FlatUpdateGeometry.lean",
+      "line": 44
+    },
+    {
+      "name": "NoiseResponse.Classification.flatResidual_clean_rank",
+      "file": "NoiseResponse/FlatUpdateGeometry.lean",
+      "line": 52
+    },
+    {
+      "name": "NoiseResponse.Classification.probe_identity_sum",
+      "file": "NoiseResponse/FlatUpdateGeometry.lean",
+      "line": 67
+    },
+    {
+      "name": "NoiseResponse.Classification.flatLoss_tangent_derivative",
+      "file": "NoiseResponse/FlatUpdateGeometry.lean",
+      "line": 71
+    },
+    {
+      "name": "NoiseResponse.Classification.flatLoss_tangent_formula",
+      "file": "NoiseResponse/FlatUpdateGeometry.lean",
+      "line": 91
+    },
+    {
+      "name": "NoiseResponse.Classification.flatLoss_normal_derivative",
+      "file": "NoiseResponse/FlatUpdateGeometry.lean",
+      "line": 103
+    },
+    {
+      "name": "NoiseResponse.Classification.exact_flat_normal_recursion",
+      "file": "NoiseResponse/FlatUpdateGeometry.lean",
+      "line": 121
+    },
+    {
+      "name": "NoiseResponse.Classification.exact_flat_tangent_slow_update",
+      "file": "NoiseResponse/FlatUpdateGeometry.lean",
+      "line": 129
+    },
+    {
+      "name": "NoiseResponse.Classification.continuousLinearMap_zero_of_fourier",
+      "file": "NoiseResponse/FourierIdentification.lean",
+      "line": 23
+    },
+    {
+      "name": "NoiseResponse.Classification.continuousLinearMap_eq_of_fourier",
+      "file": "NoiseResponse/FourierIdentification.lean",
+      "line": 39
+    },
+    {
+      "name": "NoiseResponse.GeneralEndpoint.projector_adjoint_derivative",
+      "file": "NoiseResponse/GeneralZeroEndpoint.lean",
+      "line": 23
+    },
+    {
+      "name": "NoiseResponse.GeneralEndpoint.range_projector_derivative",
+      "file": "NoiseResponse/GeneralZeroEndpoint.lean",
+      "line": 34
+    },
+    {
+      "name": "NoiseResponse.GeneralEndpoint.zero_response_projector_identity",
+      "file": "NoiseResponse/GeneralZeroEndpoint.lean",
+      "line": 66
+    },
+    {
+      "name": "NoiseResponse.GeneralEndpoint.zero_gradient_identity",
+      "file": "NoiseResponse/GeneralZeroEndpoint.lean",
+      "line": 84
+    },
+    {
+      "name": "NoiseResponse.Classification.skew_ode_endpoint_zero",
+      "file": "NoiseResponse/GeneratingODE.lean",
+      "line": 23
+    },
+    {
+      "name": "NoiseResponse.Classification.symmetric_ode_integrates",
+      "file": "NoiseResponse/GeneratingODE.lean",
+      "line": 51
+    },
+    {
+      "name": "NoiseResponse.Classification.endpoint_limits_identify",
+      "file": "NoiseResponse/GeneratingODE.lean",
+      "line": 81
+    },
+    {
+      "name": "NoiseResponse.ResidualGeometry.globalPotential_pullback",
+      "file": "NoiseResponse/GlobalResidualPotential.lean",
+      "line": 31
+    },
+    {
+      "name": "NoiseResponse.ResidualGeometry.globalPotential_response",
+      "file": "NoiseResponse/GlobalResidualPotential.lean",
+      "line": 39
+    },
+    {
+      "name": "NoiseResponse.ManuscriptPotential.normal_projector_eigenvector",
+      "file": "NoiseResponse/GramSpectralPotential.lean",
+      "line": 27
+    },
+    {
+      "name": "NoiseResponse.ManuscriptPotential.normal_filter_eigenvector",
+      "file": "NoiseResponse/GramSpectralPotential.lean",
+      "line": 47
+    },
+    {
+      "name": "NoiseResponse.ManuscriptPotential.normal_filter_diagonal",
+      "file": "NoiseResponse/GramSpectralPotential.lean",
+      "line": 60
+    },
+    {
+      "name": "NoiseResponse.ManuscriptPotential.normal_eigenvalue_bound",
+      "file": "NoiseResponse/GramSpectralPotential.lean",
+      "line": 82
+    },
+    {
+      "name": "NoiseResponse.ManuscriptPotential.normal_filter_trace_power",
+      "file": "NoiseResponse/GramSpectralPotential.lean",
+      "line": 95
+    },
+    {
+      "name": "NoiseResponse.ManuscriptPotential.normal_primitive_eigenvalues",
+      "file": "NoiseResponse/GramSpectralPotential.lean",
+      "line": 103
+    },
+    {
+      "name": "NoiseResponse.ManuscriptPotential.scalarPrimitive_zero",
+      "file": "NoiseResponse/GramSpectralPotential.lean",
+      "line": 125
+    },
+    {
+      "name": "NoiseResponse.ManuscriptPotential.isotropic_positive_input_formula",
+      "file": "NoiseResponse/GramSpectralPotential.lean",
+      "line": 128
+    },
+    {
+      "name": "NoiseResponse.Classification.complexifyMatrix_add",
+      "file": "NoiseResponse/IntegerSpectralAssembly.lean",
+      "line": 23
+    },
+    {
+      "name": "NoiseResponse.Classification.complexifyMatrix_sub",
+      "file": "NoiseResponse/IntegerSpectralAssembly.lean",
+      "line": 28
+    },
+    {
+      "name": "NoiseResponse.Classification.complexifyMatrix_smul",
+      "file": "NoiseResponse/IntegerSpectralAssembly.lean",
+      "line": 33
+    },
+    {
+      "name": "NoiseResponse.Classification.complexifyMatrix_one",
+      "file": "NoiseResponse/IntegerSpectralAssembly.lean",
+      "line": 38
+    },
+    {
+      "name": "NoiseResponse.Classification.complexifyMatrix_adjoint",
+      "file": "NoiseResponse/IntegerSpectralAssembly.lean",
+      "line": 43
+    },
+    {
+      "name": "NoiseResponse.Classification.covariance_to_full_spectral_tests",
+      "file": "NoiseResponse/IntegerSpectralAssembly.lean",
+      "line": 51
+    },
+    {
+      "name": "NoiseResponse.Classification.isotropic_density_of_continuous_tests",
+      "file": "NoiseResponse/IsotropicDensity.lean",
+      "line": 20
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.coefficientSeries_spectral_integral",
+      "file": "NoiseResponse/IsotropicMatrixIntegral.lean",
+      "line": 25
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.coefficientSeries_readout_integral",
+      "file": "NoiseResponse/IsotropicMatrixIntegral.lean",
+      "line": 54
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.adjointRealCLM_apply",
+      "file": "NoiseResponse/IsotropicPotentialCalculus.lean",
+      "line": 31
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.complexMulCLM_apply",
+      "file": "NoiseResponse/IsotropicPotentialCalculus.lean",
+      "line": 41
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.traceRightCLM_apply",
+      "file": "NoiseResponse/IsotropicPotentialCalculus.lean",
+      "line": 47
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.gram_hasFDerivAt",
+      "file": "NoiseResponse/IsotropicPotentialCalculus.lean",
+      "line": 50
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.isotropic_gradient_identity",
+      "file": "NoiseResponse/IsotropicPotentialCalculus.lean",
+      "line": 71
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.inverse_commutes_of_commutes",
+      "file": "NoiseResponse/IsotropicResolventAlgebra.lean",
+      "line": 19
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.matrixResolvent_commutes",
+      "file": "NoiseResponse/IsotropicResolventAlgebra.lean",
+      "line": 27
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.matrixResolvent_kernel",
+      "file": "NoiseResponse/IsotropicResolventAlgebra.lean",
+      "line": 36
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.matrixResolvent_pair_commutes",
+      "file": "NoiseResponse/IsotropicResolventAlgebra.lean",
+      "line": 44
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.resolvent_pair_identity",
+      "file": "NoiseResponse/IsotropicResolventAlgebra.lean",
+      "line": 55
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.gram_null_trace",
+      "file": "NoiseResponse/IsotropicResolventAlgebra.lean",
+      "line": 90
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.isotropic_response_trace",
+      "file": "NoiseResponse/IsotropicResolventAlgebra.lean",
+      "line": 100
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.doubleCoeff_real",
+      "file": "NoiseResponse/IsotropicResolventSeries.lean",
+      "line": 18
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.poissonCoeff_complex",
+      "file": "NoiseResponse/IsotropicResolventSeries.lean",
+      "line": 27
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.matrixResolvent_hasSum",
+      "file": "NoiseResponse/IsotropicResolventSeries.lean",
+      "line": 41
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.matrixResolvent_inverse",
+      "file": "NoiseResponse/IsotropicResolventSeries.lean",
+      "line": 47
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.matrixResolvent_adjoint",
+      "file": "NoiseResponse/IsotropicResolventSeries.lean",
+      "line": 54
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.matrixResolvent_transpose",
+      "file": "NoiseResponse/IsotropicResolventSeries.lean",
+      "line": 61
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.matrixResolvent_product_hasSum",
+      "file": "NoiseResponse/IsotropicResolventSeries.lean",
+      "line": 67
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.poisson_matrix_hasSum",
+      "file": "NoiseResponse/IsotropicResolventSeries.lean",
+      "line": 92
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.normalized_response",
+      "file": "NoiseResponse/IsotropicResponseAlgebra.lean",
+      "line": 17
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.symmetric_trace_transpose",
+      "file": "NoiseResponse/IsotropicResponseAlgebra.lean",
+      "line": 28
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.symmetric_gram_trace",
+      "file": "NoiseResponse/IsotropicResponseAlgebra.lean",
+      "line": 33
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.gram_response_trace",
+      "file": "NoiseResponse/IsotropicResponseAlgebra.lean",
+      "line": 40
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.scalarKernel_real_formula",
+      "file": "NoiseResponse/IsotropicScalarPotential.lean",
+      "line": 18
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.phi_derivative",
+      "file": "NoiseResponse/IsotropicScalarPotential.lean",
+      "line": 39
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.doubleCoeff_norm",
+      "file": "NoiseResponse/IsotropicSpectralCoefficients.lean",
+      "line": 28
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.poissonCoeff_bound",
+      "file": "NoiseResponse/IsotropicSpectralCoefficients.lean",
+      "line": 35
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.linear_geometric_summable",
+      "file": "NoiseResponse/IsotropicSpectralCoefficients.lean",
+      "line": 47
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.normalPowerKernel_hasSum",
+      "file": "NoiseResponse/IsotropicSpectralCoefficients.lean",
+      "line": 54
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.scalarKernel_hasSum",
+      "file": "NoiseResponse/IsotropicSpectralCoefficients.lean",
+      "line": 83
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.spectralCoeff_bound",
+      "file": "NoiseResponse/IsotropicSpectralCoefficients.lean",
+      "line": 93
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.spectralCoeff_summable",
+      "file": "NoiseResponse/IsotropicSpectralCoefficients.lean",
+      "line": 100
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.integrated_kernel_hasSum",
+      "file": "NoiseResponse/IsotropicSpectralCoefficients.lean",
+      "line": 107
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.scalarPrimitive_derivative",
+      "file": "NoiseResponse/IsotropicSpectralCoefficients.lean",
+      "line": 132
+    },
+    {
+      "name": "NoiseResponse.FlatBridge.normalColumnCLM_apply",
+      "file": "NoiseResponse/JacobianClassificationEquivalence.lean",
+      "line": 22
+    },
+    {
+      "name": "NoiseResponse.FlatBridge.complexify_realColumn",
+      "file": "NoiseResponse/JacobianClassificationEquivalence.lean",
+      "line": 24
+    },
+    {
+      "name": "NoiseResponse.FlatBridge.normalColumn_fderiv",
+      "file": "NoiseResponse/JacobianClassificationEquivalence.lean",
+      "line": 26
+    },
+    {
+      "name": "NoiseResponse.FlatBridge.measured_column_eq_flat",
+      "file": "NoiseResponse/JacobianClassificationEquivalence.lean",
+      "line": 35
+    },
+    {
+      "name": "NoiseResponse.Sufficiency.classified_implies_all_jacobians",
+      "file": "NoiseResponse/JacobianClassificationEquivalence.lean",
+      "line": 67
+    },
+    {
+      "name": "NoiseResponse.Sufficiency.all_jacobians_implies_admissible_flat",
+      "file": "NoiseResponse/JacobianClassificationEquivalence.lean",
+      "line": 72
+    },
+    {
+      "name": "NoiseResponse.Sufficiency.universal_jacobian_classification",
+      "file": "NoiseResponse/JacobianClassificationEquivalence.lean",
+      "line": 94
+    },
+    {
+      "name": "NoiseResponse.ManuscriptPotential.gram_eigenvalue_sum",
+      "file": "NoiseResponse/ManuscriptPotentialFormula.lean",
+      "line": 22
+    },
+    {
+      "name": "NoiseResponse.ManuscriptPotential.isotropic_positive_output_formula",
+      "file": "NoiseResponse/ManuscriptPotentialFormula.lean",
+      "line": 37
+    },
+    {
+      "name": "NoiseResponse.ManuscriptPotential.nyquist_inverse_formula",
+      "file": "NoiseResponse/ManuscriptPotentialFormula.lean",
+      "line": 48
+    },
+    {
+      "name": "NoiseResponse.ManuscriptPotential.manuscript_potential_formula",
+      "file": "NoiseResponse/ManuscriptPotentialFormula.lean",
+      "line": 60
+    },
+    {
+      "name": "NoiseResponse.MatrixCalculus.mulCLM_apply",
+      "file": "NoiseResponse/MatrixCalculus.lean",
+      "line": 43
+    },
+    {
+      "name": "NoiseResponse.MatrixCalculus.adjCLM_apply",
+      "file": "NoiseResponse/MatrixCalculus.lean",
+      "line": 52
+    },
+    {
+      "name": "NoiseResponse.MatrixCalculus.hasDerivAt_mul",
+      "file": "NoiseResponse/MatrixCalculus.lean",
+      "line": 54
+    },
+    {
+      "name": "NoiseResponse.MatrixCalculus.fderiv_mul_apply",
+      "file": "NoiseResponse/MatrixCalculus.lean",
+      "line": 67
+    },
+    {
+      "name": "NoiseResponse.MatrixCalculus.hasDerivAt_line",
+      "file": "NoiseResponse/MatrixCalculus.lean",
+      "line": 78
+    },
+    {
+      "name": "NoiseResponse.MatrixCalculus.hasDerivAt_adj",
+      "file": "NoiseResponse/MatrixCalculus.lean",
+      "line": 85
+    },
+    {
+      "name": "NoiseResponse.Classification.vectorQuadraticTest_apply",
+      "file": "NoiseResponse/MatrixDensityPositivity.lean",
+      "line": 22
+    },
+    {
+      "name": "NoiseResponse.Classification.density_positive_of_setIntegrals",
+      "file": "NoiseResponse/MatrixDensityPositivity.lean",
+      "line": 34
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.matrixTrace_apply",
+      "file": "NoiseResponse/MatrixIsotropicPrimitive.lean",
+      "line": 32
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.matrixTrace_cyclic",
+      "file": "NoiseResponse/MatrixIsotropicPrimitive.lean",
+      "line": 34
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.trace_power_eigenvalues",
+      "file": "NoiseResponse/MatrixIsotropicPrimitive.lean",
+      "line": 37
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.matrixPrimitive_eigenvalues",
+      "file": "NoiseResponse/MatrixIsotropicPrimitive.lean",
+      "line": 43
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.isotropicPotential_hasFDerivAt",
+      "file": "NoiseResponse/MatrixIsotropicPrimitive.lean",
+      "line": 67
+    },
+    {
+      "name": "NoiseResponse.IsotropicSpectrum.isotropicPotential_contDiffAt",
+      "file": "NoiseResponse/MatrixIsotropicPrimitive.lean",
+      "line": 85
+    },
+    {
+      "name": "NoiseResponse.Classification.realPart_posSemidef",
+      "file": "NoiseResponse/MatrixMeasureClassification.lean",
+      "line": 19
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.endpoint0_positive",
+      "file": "NoiseResponse/MatrixMeasureClassification.lean",
+      "line": 39
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.endpointPi_positive",
+      "file": "NoiseResponse/MatrixMeasureClassification.lean",
+      "line": 42
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.endpoints_real",
+      "file": "NoiseResponse/MatrixMeasureClassification.lean",
+      "line": 45
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.flat_spectral_necessity_complete",
+      "file": "NoiseResponse/MatrixMeasureClassification.lean",
+      "line": 69
+    },
+    {
+      "name": "NoiseResponse.Classification.matrixConjugateCLM_apply",
+      "file": "NoiseResponse/MatrixMeasureReflection.lean",
+      "line": 31
+    },
+    {
+      "name": "NoiseResponse.Classification.matrixConjugateCLM_twice",
+      "file": "NoiseResponse/MatrixMeasureReflection.lean",
+      "line": 34
+    },
+    {
+      "name": "NoiseResponse.Classification.matrixConjugateCLM_complex_smul",
+      "file": "NoiseResponse/MatrixMeasureReflection.lean",
+      "line": 37
+    },
+    {
+      "name": "NoiseResponse.Classification.conjugate_fixed_implies_real",
+      "file": "NoiseResponse/MatrixMeasureReflection.lean",
+      "line": 43
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.trace_reflection",
+      "file": "NoiseResponse/MatrixMeasureReflection.lean",
+      "line": 59
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.trace_neg_preserving",
+      "file": "NoiseResponse/MatrixMeasureReflection.lean",
+      "line": 70
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.density_reflection",
+      "file": "NoiseResponse/MatrixMeasureReflection.lean",
+      "line": 74
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.real_fourier_covariances",
+      "file": "NoiseResponse/MatrixMeasureReflection.lean",
+      "line": 93
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.integral_spectrum_represents",
+      "file": "NoiseResponse/MatrixMeasureReflection.lean",
+      "line": 120
+    },
+    {
+      "name": "NoiseResponse.Classification.symmetricProbe_eq",
+      "file": "NoiseResponse/MatrixNecessity.lean",
+      "line": 25
+    },
+    {
+      "name": "NoiseResponse.Classification.rankone_potential_covariance_necessity",
+      "file": "NoiseResponse/MatrixNecessity.lean",
+      "line": 34
+    },
+    {
+      "name": "NoiseResponse.Classification.quadraticTestCLM_apply",
+      "file": "NoiseResponse/MatrixPositiveIntegral.lean",
+      "line": 22
+    },
+    {
+      "name": "NoiseResponse.Classification.positive_matrix_integral",
+      "file": "NoiseResponse/MatrixPositiveIntegral.lean",
+      "line": 34
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.traceSigned_apply",
+      "file": "NoiseResponse/MatrixSpectralMeasure.lean",
+      "line": 32
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.traceSigned_nonneg",
+      "file": "NoiseResponse/MatrixSpectralMeasure.lean",
+      "line": 39
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.traceMeasure_real",
+      "file": "NoiseResponse/MatrixSpectralMeasure.lean",
+      "line": 56
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.null_of_trace_null",
+      "file": "NoiseResponse/MatrixSpectralMeasure.lean",
+      "line": 62
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.entry_absolutelyContinuous",
+      "file": "NoiseResponse/MatrixSpectralMeasure.lean",
+      "line": 75
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.complex_withDensity_rnDeriv",
+      "file": "NoiseResponse/MatrixSpectralMeasure.lean",
+      "line": 84
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.density_integrable",
+      "file": "NoiseResponse/MatrixSpectralMeasure.lean",
+      "line": 108
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.density_entry_integral",
+      "file": "NoiseResponse/MatrixSpectralMeasure.lean",
+      "line": 115
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.density_matrix_integral",
+      "file": "NoiseResponse/MatrixSpectrumRepresentation.lean",
+      "line": 21
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.density_positive",
+      "file": "NoiseResponse/MatrixSpectrumRepresentation.lean",
+      "line": 30
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.trace_density_representation",
+      "file": "NoiseResponse/MatrixSpectrumRepresentation.lean",
+      "line": 38
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.trace_density_unique",
+      "file": "NoiseResponse/MatrixSpectrumRepresentation.lean",
+      "line": 45
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.remainder_integrable",
+      "file": "NoiseResponse/MeasurableSpectralNecessity.lean",
+      "line": 26
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.remainder_positive",
+      "file": "NoiseResponse/MeasurableSpectralNecessity.lean",
+      "line": 27
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.remainder_isotropic",
+      "file": "NoiseResponse/MeasurableSpectralNecessity.lean",
+      "line": 32
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.scalarRemainder_test_decomposition",
+      "file": "NoiseResponse/MeasurableSpectralNecessity.lean",
+      "line": 46
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.scalarRemainder_properties",
+      "file": "NoiseResponse/MeasurableSpectralNecessity.lean",
+      "line": 60
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.split_set_endpoints",
+      "file": "NoiseResponse/MeasurableSpectralNecessity.lean",
+      "line": 77
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.scalarRemainder_set_decomposition",
+      "file": "NoiseResponse/MeasurableSpectralNecessity.lean",
+      "line": 110
+    },
+    {
+      "name": "NoiseResponse.Classification.PSDMatrixMeasure.flat_potential_measure_necessity",
+      "file": "NoiseResponse/MeasurableSpectralNecessity.lean",
+      "line": 127
+    },
+    {
+      "name": "NoiseResponse.Sufficiency.frequencyCoefficient_continuous",
+      "file": "NoiseResponse/MeasuredFieldSufficiency.lean",
+      "line": 27
+    },
+    {
+      "name": "NoiseResponse.Sufficiency.classified_measured_response",
+      "file": "NoiseResponse/MeasuredFieldSufficiency.lean",
+      "line": 57
+    },
+    {
+      "name": "NoiseResponse.Sufficiency.classified_local_potential",
+      "file": "NoiseResponse/MeasuredFieldSufficiency.lean",
+      "line": 79
+    },
+    {
+      "name": "NoiseResponse.Classification.matrix_generating_necessity",
+      "file": "NoiseResponse/NativeCovarianceNecessity.lean",
+      "line": 20
+    },
+    {
+      "name": "NoiseResponse.Classification.probe_add_left",
+      "file": "NoiseResponse/OrthonormalProbes.lean",
+      "line": 20
+    },
+    {
+      "name": "NoiseResponse.Classification.probe_smul_left",
+      "file": "NoiseResponse/OrthonormalProbes.lean",
+      "line": 25
+    },
+    {
+      "name": "NoiseResponse.Classification.probe_add_right",
+      "file": "NoiseResponse/OrthonormalProbes.lean",
+      "line": 30
+    },
+    {
+      "name": "NoiseResponse.Classification.probe_smul_right",
+      "file": "NoiseResponse/OrthonormalProbes.lean",
+      "line": 34
+    },
+    {
+      "name": "NoiseResponse.Classification.probe_neg_left",
+      "file": "NoiseResponse/OrthonormalProbes.lean",
+      "line": 38
+    },
+    {
+      "name": "NoiseResponse.Classification.probe_neg_right",
+      "file": "NoiseResponse/OrthonormalProbes.lean",
+      "line": 43
+    },
+    {
+      "name": "NoiseResponse.Classification.probe_single",
+      "file": "NoiseResponse/OrthonormalProbes.lean",
+      "line": 46
+    },
+    {
+      "name": "NoiseResponse.Classification.probe_matrix_add",
+      "file": "NoiseResponse/OrthonormalProbes.lean",
+      "line": 50
+    },
+    {
+      "name": "NoiseResponse.Classification.probe_matrix_sub",
+      "file": "NoiseResponse/OrthonormalProbes.lean",
+      "line": 55
+    },
+    {
+      "name": "NoiseResponse.Classification.probe_matrix_smul",
+      "file": "NoiseResponse/OrthonormalProbes.lean",
+      "line": 60
+    },
+    {
+      "name": "NoiseResponse.Classification.probe_transpose",
+      "file": "NoiseResponse/OrthonormalProbes.lean",
+      "line": 65
+    },
+    {
+      "name": "NoiseResponse.Classification.probe_symmetric",
+      "file": "NoiseResponse/OrthonormalProbes.lean",
+      "line": 75
+    },
+    {
+      "name": "NoiseResponse.Classification.scalar_of_orthonormal_probes",
+      "file": "NoiseResponse/OrthonormalProbes.lean",
+      "line": 82
+    },
+    {
+      "name": "NoiseResponse.Classification.generating_map",
+      "file": "NoiseResponse/PairRepresentation.lean",
+      "line": 24
+    },
+    {
+      "name": "NoiseResponse.Classification.generating_endpoint_map",
+      "file": "NoiseResponse/PairRepresentation.lean",
+      "line": 31
+    },
+    {
+      "name": "NoiseResponse.Classification.symmetricProbeCLM_apply",
+      "file": "NoiseResponse/PairRepresentation.lean",
+      "line": 78
+    },
+    {
+      "name": "NoiseResponse.Classification.skewProbeCLM_apply",
+      "file": "NoiseResponse/PairRepresentation.lean",
+      "line": 85
+    },
+    {
+      "name": "NoiseResponse.Classification.covariancePair_sym",
+      "file": "NoiseResponse/PairRepresentation.lean",
+      "line": 97
+    },
+    {
+      "name": "NoiseResponse.Classification.covariancePair_skew",
+      "file": "NoiseResponse/PairRepresentation.lean",
+      "line": 107
+    },
+    {
+      "name": "NoiseResponse.Classification.covariancePair_zero",
+      "file": "NoiseResponse/PairRepresentation.lean",
+      "line": 117
+    },
+    {
+      "name": "NoiseResponse.Classification.covarianceSeries_coeff",
+      "file": "NoiseResponse/PowerSeriesIdentification.lean",
+      "line": 23
+    },
+    {
+      "name": "NoiseResponse.Classification.bounded_covariance_summable",
+      "file": "NoiseResponse/PowerSeriesIdentification.lean",
+      "line": 29
+    },
+    {
+      "name": "NoiseResponse.Classification.bounded_covariance_hasFPowerSeries",
+      "file": "NoiseResponse/PowerSeriesIdentification.lean",
+      "line": 39
+    },
+    {
+      "name": "NoiseResponse.Classification.bounded_covariance_hasFPowerSeriesOnBall",
+      "file": "NoiseResponse/PowerSeriesIdentification.lean",
+      "line": 48
+    },
+    {
+      "name": "NoiseResponse.Classification.bounded_generating_differentiable",
+      "file": "NoiseResponse/PowerSeriesIdentification.lean",
+      "line": 65
+    },
+    {
+      "name": "NoiseResponse.Classification.bounded_generating_eq_coefficients",
+      "file": "NoiseResponse/PowerSeriesIdentification.lean",
+      "line": 76
+    },
+    {
+      "name": "NoiseResponse.Classification.endpoint_generating",
+      "file": "NoiseResponse/PowerSeriesIdentification.lean",
+      "line": 88
+    },
+    {
+      "name": "NoiseResponse.Classification.endpoint_poles_identify_coefficients",
+      "file": "NoiseResponse/PowerSeriesIdentification.lean",
+      "line": 102
+    },
+    {
+      "name": "NoiseResponse.Classification.local_potential_curl_zero",
+      "file": "NoiseResponse/ProbeClosedness.lean",
+      "line": 27
+    },
+    {
+      "name": "NoiseResponse.Classification.pair_axis_x_closedness",
+      "file": "NoiseResponse/RankOnePair.lean",
+      "line": 32
+    },
+    {
+      "name": "NoiseResponse.Classification.pair_axis_y_closedness",
+      "file": "NoiseResponse/RankOnePair.lean",
+      "line": 61
+    },
+    {
+      "name": "NoiseResponse.Classification.pair_potentials_force_odes",
+      "file": "NoiseResponse/RankOnePair.lean",
+      "line": 93
+    },
+    {
+      "name": "NoiseResponse.Classification.rankOneTransfer_equation",
+      "file": "NoiseResponse/RankOneResponseCoefficient.lean",
+      "line": 27
+    },
+    {
+      "name": "NoiseResponse.Classification.normalGramVariation_actual",
+      "file": "NoiseResponse/RankOneResponseCoefficient.lean",
+      "line": 39
+    },
+    {
+      "name": "NoiseResponse.Classification.rankOne_response_matrix",
+      "file": "NoiseResponse/RankOneResponseCoefficient.lean",
+      "line": 51
+    },
+    {
+      "name": "NoiseResponse.Classification.trace_outer_mul",
+      "file": "NoiseResponse/RankOneResponseCoefficient.lean",
+      "line": 73
+    },
+    {
+      "name": "NoiseResponse.Classification.complexProbe_real",
+      "file": "NoiseResponse/RankOneResponseCoefficient.lean",
+      "line": 85
+    },
+    {
+      "name": "NoiseResponse.Classification.complexProbe_smul",
+      "file": "NoiseResponse/RankOneResponseCoefficient.lean",
+      "line": 92
+    },
+    {
+      "name": "NoiseResponse.Classification.complexProbe_hermitian",
+      "file": "NoiseResponse/RankOneResponseCoefficient.lean",
+      "line": 102
+    },
+    {
+      "name": "NoiseResponse.Classification.rankOne_response_readout",
+      "file": "NoiseResponse/RankOneResponseCoefficient.lean",
+      "line": 116
+    },
+    {
+      "name": "NoiseResponse.Classification.stable_kernel_den_ne_zero",
+      "file": "NoiseResponse/RankOneSpectralKernel.lean",
+      "line": 21
+    },
+    {
+      "name": "NoiseResponse.Classification.causalCrossKernel_bound",
+      "file": "NoiseResponse/RankOneSpectralKernel.lean",
+      "line": 28
+    },
+    {
+      "name": "NoiseResponse.Classification.normalPowerKernel_poisson",
+      "file": "NoiseResponse/RankOneSpectralKernel.lean",
+      "line": 36
+    },
+    {
+      "name": "NoiseResponse.Classification.normalTransfer_equation",
+      "file": "NoiseResponse/RankOneSpectralKernel.lean",
+      "line": 61
+    },
+    {
+      "name": "NoiseResponse.Classification.normalTransfer_star",
+      "file": "NoiseResponse/RankOneSpectralKernel.lean",
+      "line": 70
+    },
+    {
+      "name": "NoiseResponse.Classification.normalTransfer_power",
+      "file": "NoiseResponse/RankOneSpectralKernel.lean",
+      "line": 88
+    },
+    {
+      "name": "NoiseResponse.Classification.cross_kernel_integrable",
+      "file": "NoiseResponse/RankOneSpectralMoments.lean",
+      "line": 19
+    },
+    {
+      "name": "NoiseResponse.Classification.weighted_hermitian_integral",
+      "file": "NoiseResponse/RankOneSpectralMoments.lean",
+      "line": 29
+    },
+    {
+      "name": "NoiseResponse.Classification.normal_power_integral",
+      "file": "NoiseResponse/RankOneSpectralMoments.lean",
+      "line": 39
+    },
+    {
+      "name": "NoiseResponse.Classification.realPart_complex_real_smul",
+      "file": "NoiseResponse/RankOneSpectralMoments.lean",
+      "line": 72
+    },
+    {
+      "name": "NoiseResponse.Classification.realPart_adjoint",
+      "file": "NoiseResponse/RankOneSpectralMoments.lean",
+      "line": 78
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.cross_spectral_moment",
+      "file": "NoiseResponse/RankOneSpectralMoments.lean",
+      "line": 90
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.normal_spectral_covariance",
+      "file": "NoiseResponse/RankOneSpectralMoments.lean",
+      "line": 98
+    },
+    {
+      "name": "NoiseResponse.RankSafe.matrixResolvent_contDiffAt",
+      "file": "NoiseResponse/RankSafeTransfer.lean",
+      "line": 31
+    },
+    {
+      "name": "NoiseResponse.RankSafe.normalFilter_contDiffAt",
+      "file": "NoiseResponse/RankSafeTransfer.lean",
+      "line": 39
+    },
+    {
+      "name": "NoiseResponse.RankSafe.transfer_contDiffAt",
+      "file": "NoiseResponse/RankSafeTransfer.lean",
+      "line": 47
+    },
+    {
+      "name": "NoiseResponse.RankSafe.zero_transfer_right",
+      "file": "NoiseResponse/RankSafeTransfer.lean",
+      "line": 58
+    },
+    {
+      "name": "NoiseResponse.RankSafe.zero_output_projector",
+      "file": "NoiseResponse/RankSafeTransfer.lean",
+      "line": 79
+    },
+    {
+      "name": "NoiseResponse.RankSafe.nyquistOutputInverse_right",
+      "file": "NoiseResponse/RankSafeTransfer.lean",
+      "line": 112
+    },
+    {
+      "name": "NoiseResponse.RankSafe.nyquist_transfer_eq",
+      "file": "NoiseResponse/RankSafeTransfer.lean",
+      "line": 133
+    },
+    {
+      "name": "NoiseResponse.RankSafe.nyquistOutputInverse_contDiffAt",
+      "file": "NoiseResponse/RankSafeTransfer.lean",
+      "line": 156
+    },
+    {
+      "name": "NoiseResponse.ResidualGeometry.jacobianCLM_apply",
+      "file": "NoiseResponse/ResidualGeometry.lean",
+      "line": 28
+    },
+    {
+      "name": "NoiseResponse.ResidualGeometry.jacobian_contDiffAt",
+      "file": "NoiseResponse/ResidualGeometry.lean",
+      "line": 34
+    },
+    {
+      "name": "NoiseResponse.ResidualGeometry.admissible_jacobian",
+      "file": "NoiseResponse/ResidualGeometry.lean",
+      "line": 49
+    },
+    {
+      "name": "NoiseResponse.ResidualGeometry.classified_residual_local_potential",
+      "file": "NoiseResponse/ResidualGeometry.lean",
+      "line": 60
+    },
+    {
+      "name": "NoiseResponse.ResidualGeometry.empty_parameters_response",
+      "file": "NoiseResponse/ResidualGeometry.lean",
+      "line": 66
+    },
+    {
+      "name": "NoiseResponse.ResidualGeometry.classified_residual_local_potential_all_dimensions",
+      "file": "NoiseResponse/ResidualGeometry.lean",
+      "line": 78
+    },
+    {
+      "name": "NoiseResponse.ResidualGeometry.classified_implies_all_residuals",
+      "file": "NoiseResponse/ResidualGeometry.lean",
+      "line": 97
+    },
+    {
+      "name": "NoiseResponse.OneForm.trace_adjoint_test",
+      "file": "NoiseResponse/ResponseOneFormBridge.lean",
+      "line": 17
+    },
+    {
+      "name": "NoiseResponse.OneForm.coefficient_one_form",
+      "file": "NoiseResponse/ResponseOneFormBridge.lean",
+      "line": 24
+    },
+    {
+      "name": "NoiseResponse.ResidualGeometry.response_original_one_form",
+      "file": "NoiseResponse/ResponseOneFormBridge.lean",
+      "line": 59
+    },
+    {
+      "name": "NoiseResponse.Classification.PairCovariances.axis_potentials_odes",
+      "file": "NoiseResponse/ScalarNecessity.lean",
+      "line": 53
+    },
+    {
+      "name": "NoiseResponse.Classification.PairCovariances.necessary_lags",
+      "file": "NoiseResponse/ScalarNecessity.lean",
+      "line": 87
+    },
+    {
+      "name": "NoiseResponse.Classification.real_fourier_implies_reflection",
+      "file": "NoiseResponse/ScalarReflection.lean",
+      "line": 15
+    },
+    {
+      "name": "NoiseResponse.Classification.scalar_spectrum_is_positive_measure",
+      "file": "NoiseResponse/ScalarSpectralMeasure.lean",
+      "line": 20
+    },
+    {
+      "name": "NoiseResponse.Classification.scalar_measure_has_no_endpoint_atoms",
+      "file": "NoiseResponse/ScalarSpectralMeasure.lean",
+      "line": 64
+    },
+    {
+      "name": "NoiseResponse.Classification.fourier_nat_power",
+      "file": "NoiseResponse/SpectralDensityTools.lean",
+      "line": 22
+    },
+    {
+      "name": "NoiseResponse.Classification.spectralCovariance_fourier",
+      "file": "NoiseResponse/SpectralDensityTools.lean",
+      "line": 28
+    },
+    {
+      "name": "NoiseResponse.Classification.hermitian_integral",
+      "file": "NoiseResponse/SpectralDensityTools.lean",
+      "line": 40
+    },
+    {
+      "name": "NoiseResponse.Classification.realPart_hermitian_symmetric",
+      "file": "NoiseResponse/SpectralDensityTools.lean",
+      "line": 49
+    },
+    {
+      "name": "NoiseResponse.Classification.hermitian_spectrum_negative",
+      "file": "NoiseResponse/SpectralDensityTools.lean",
+      "line": 56
+    },
+    {
+      "name": "NoiseResponse.Classification.singleton_test_integral",
+      "file": "NoiseResponse/SpectralDensityTools.lean",
+      "line": 68
+    },
+    {
+      "name": "NoiseResponse.Classification.remove_actual_atoms_test",
+      "file": "NoiseResponse/SpectralDensityTools.lean",
+      "line": 77
+    },
+    {
+      "name": "NoiseResponse.Classification.integrable_test_smul",
+      "file": "NoiseResponse/SpectralIdentification.lean",
+      "line": 22
+    },
+    {
+      "name": "NoiseResponse.Classification.densityTest_apply",
+      "file": "NoiseResponse/SpectralIdentification.lean",
+      "line": 54
+    },
+    {
+      "name": "NoiseResponse.Classification.spectral_integrals_eq_of_fourier",
+      "file": "NoiseResponse/SpectralIdentification.lean",
+      "line": 60
+    },
+    {
+      "name": "NoiseResponse.Classification.finite_measure_eq_of_fourier",
+      "file": "NoiseResponse/SpectralIdentification.lean",
+      "line": 71
+    },
+    {
+      "name": "NoiseResponse.SpectralIntegral.simple_pairing_integral",
+      "file": "NoiseResponse/SpectralIntegralDetermination.lean",
+      "line": 23
+    },
+    {
+      "name": "NoiseResponse.SpectralIntegral.bounded_pairing_limit",
+      "file": "NoiseResponse/SpectralIntegralDetermination.lean",
+      "line": 49
+    },
+    {
+      "name": "NoiseResponse.SpectralIntegral.bounded_pairing_finite_split",
+      "file": "NoiseResponse/SpectralIntegralDetermination.lean",
+      "line": 72
+    },
+    {
+      "name": "NoiseResponse.Classification.pointMatrixTest_apply",
+      "file": "NoiseResponse/SpectralIsotropy.lean",
+      "line": 48
+    },
+    {
+      "name": "NoiseResponse.Classification.isotropic_functional_of_scalar_fourier",
+      "file": "NoiseResponse/SpectralIsotropy.lean",
+      "line": 51
+    },
+    {
+      "name": "NoiseResponse.Classification.full_spectral_test_decomposition",
+      "file": "NoiseResponse/SpectralIsotropy.lean",
+      "line": 67
+    },
+    {
+      "name": "NoiseResponse.Classification.matrixRealCLM_apply",
+      "file": "NoiseResponse/SpectralNativeBridge.lean",
+      "line": 34
+    },
+    {
+      "name": "NoiseResponse.Classification.spectral_covariance_bound",
+      "file": "NoiseResponse/SpectralNativeBridge.lean",
+      "line": 37
+    },
+    {
+      "name": "NoiseResponse.Classification.spectral_generating_real",
+      "file": "NoiseResponse/SpectralNativeBridge.lean",
+      "line": 44
+    },
+    {
+      "name": "NoiseResponse.Classification.spectral_integral_covariance_necessity",
+      "file": "NoiseResponse/SpectralNativeBridge.lean",
+      "line": 61
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.bounded",
+      "file": "NoiseResponse/SpectralNecessity.lean",
+      "line": 48
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.hermitian",
+      "file": "NoiseResponse/SpectralNecessity.lean",
+      "line": 59
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.atoms_real",
+      "file": "NoiseResponse/SpectralNecessity.lean",
+      "line": 62
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.zero_symmetric",
+      "file": "NoiseResponse/SpectralNecessity.lean",
+      "line": 71
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.atoms_symmetric",
+      "file": "NoiseResponse/SpectralNecessity.lean",
+      "line": 74
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.covariance_necessity",
+      "file": "NoiseResponse/SpectralNecessity.lean",
+      "line": 81
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.spectral_test_necessity",
+      "file": "NoiseResponse/SpectralNecessity.lean",
+      "line": 91
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.positive_measure_necessity",
+      "file": "NoiseResponse/SpectralNecessity.lean",
+      "line": 119
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.atoms_positive",
+      "file": "NoiseResponse/SpectralNecessity.lean",
+      "line": 195
+    },
+    {
+      "name": "NoiseResponse.Classification.RealMatrixSpectrum.rank_one_spectral_necessity",
+      "file": "NoiseResponse/SpectralNecessity.lean",
+      "line": 204
+    },
+    {
+      "name": "NoiseResponse.Classification.matrixComplexifyCLM_apply",
+      "file": "NoiseResponse/SpectralReality.lean",
+      "line": 28
+    },
+    {
+      "name": "NoiseResponse.Classification.realityProjection_apply",
+      "file": "NoiseResponse/SpectralReality.lean",
+      "line": 34
+    },
+    {
+      "name": "NoiseResponse.Classification.spectralGenerating_eq_generating",
+      "file": "NoiseResponse/SpectralReality.lean",
+      "line": 37
+    },
+    {
+      "name": "NoiseResponse.Classification.generating_preserves_reality",
+      "file": "NoiseResponse/SpectralReality.lean",
+      "line": 46
+    },
+    {
+      "name": "NoiseResponse.Classification.generating_limit_is_real",
+      "file": "NoiseResponse/SpectralReality.lean",
+      "line": 55
+    },
+    {
+      "name": "NoiseResponse.Classification.spectral_endpoint_masses_real",
+      "file": "NoiseResponse/SpectralReality.lean",
+      "line": 70
+    },
+    {
+      "name": "NoiseResponse.Classification.spectral_generating_resolvent",
+      "file": "NoiseResponse/SpectralResolvent.lean",
+      "line": 27
+    },
+    {
+      "name": "NoiseResponse.Classification.spectral_generating_zero_endpoint",
+      "file": "NoiseResponse/SpectralResolvent.lean",
+      "line": 69
+    },
+    {
+      "name": "NoiseResponse.Classification.spectral_generating_nyquist_endpoint",
+      "file": "NoiseResponse/SpectralResolvent.lean",
+      "line": 85
+    },
+    {
+      "name": "NoiseResponse.TraceSeries.idempotent_trace_variation",
+      "file": "NoiseResponse/SupportedTracePotential.lean",
+      "line": 20
+    },
+    {
+      "name": "NoiseResponse.TraceSeries.supported_trace_variation",
+      "file": "NoiseResponse/SupportedTracePotential.lean",
+      "line": 36
+    },
+    {
+      "name": "NoiseResponse.TraceSeries.supported_power_trace_variation",
+      "file": "NoiseResponse/SupportedTracePotential.lean",
+      "line": 46
+    },
+    {
+      "name": "NoiseResponse.TraceSeries.coefficientSeries_trace_variation",
+      "file": "NoiseResponse/SupportedTracePotential.lean",
+      "line": 58
+    },
+    {
+      "name": "NoiseResponse.TraceSeries.idempotent_field_derivative",
+      "file": "NoiseResponse/SupportedTracePotential.lean",
+      "line": 74
+    },
+    {
+      "name": "NoiseResponse.TraceSeries.supportedPotential_derivative",
+      "file": "NoiseResponse/SupportedTracePotential.lean",
+      "line": 87
+    },
+    {
+      "name": "NoiseResponse.ResidualGeometry.measured_real_field_congr",
+      "file": "NoiseResponse/Theorem3.lean",
+      "line": 23
+    },
+    {
+      "name": "NoiseResponse.AmbientFlat.admissible_residual",
+      "file": "NoiseResponse/Theorem3.lean",
+      "line": 40
+    },
+    {
+      "name": "NoiseResponse.ResidualGeometry.all_residuals_implies_admissible_flat",
+      "file": "NoiseResponse/Theorem3.lean",
+      "line": 70
+    },
+    {
+      "name": "NoiseResponse.ResidualGeometry.theorem3_universal_spectral_classification",
+      "file": "NoiseResponse/Theorem3.lean",
+      "line": 101
+    },
+    {
+      "name": "NoiseResponse.ResidualGeometry.classified_global_potential",
+      "file": "NoiseResponse/Theorem3Complete.lean",
+      "line": 25
+    },
+    {
+      "name": "NoiseResponse.RankSafe.transfer_normal_range",
+      "file": "NoiseResponse/Theorem3GeometryIdentities.lean",
+      "line": 19
+    },
+    {
+      "name": "NoiseResponse.RankSafe.transfer_original_equation",
+      "file": "NoiseResponse/Theorem3GeometryIdentities.lean",
+      "line": 35
+    },
+    {
+      "name": "NoiseResponse.RankSafe.zero_transfer_penrose",
+      "file": "NoiseResponse/Theorem3GeometryIdentities.lean",
+      "line": 47
+    },
+    {
+      "name": "NoiseResponse.ResidualGeometry.admissible_uniform_margin",
+      "file": "NoiseResponse/Theorem3GeometryIdentities.lean",
+      "line": 72
+    },
+    {
+      "name": "NoiseResponse.RankSafe.transfer_equation",
+      "file": "NoiseResponse/TransferIsometry.lean",
+      "line": 20
+    },
+    {
+      "name": "NoiseResponse.RankSafe.transfer_unique",
+      "file": "NoiseResponse/TransferIsometry.lean",
+      "line": 28
+    },
+    {
+      "name": "NoiseResponse.RankSafe.filter_isometry_intertwines",
+      "file": "NoiseResponse/TransferIsometry.lean",
+      "line": 39
+    },
+    {
+      "name": "NoiseResponse.RankSafe.transfer_isometry",
+      "file": "NoiseResponse/TransferIsometry.lean",
+      "line": 55
+    },
+    {
+      "name": "NoiseResponse.RankSafe.response_isometry",
+      "file": "NoiseResponse/TransferIsometry.lean",
+      "line": 70
+    },
+    {
+      "name": "NoiseResponse.Classification.gram_inverse_derivative",
+      "file": "NoiseResponse/ZeroEndpointPotential.lean",
+      "line": 22
+    },
+    {
+      "name": "NoiseResponse.Classification.hermitian_inverse",
+      "file": "NoiseResponse/ZeroEndpointPotential.lean",
+      "line": 38
+    },
+    {
+      "name": "NoiseResponse.Classification.frameProjector_properties",
+      "file": "NoiseResponse/ZeroEndpointPotential.lean",
+      "line": 46
+    },
+    {
+      "name": "NoiseResponse.Classification.frameProjector_range",
+      "file": "NoiseResponse/ZeroEndpointPotential.lean",
+      "line": 63
+    },
+    {
+      "name": "NoiseResponse.Classification.zero_endpoint_projector_derivative",
+      "file": "NoiseResponse/ZeroEndpointPotential.lean",
+      "line": 76
+    },
+    {
+      "name": "NoiseResponse.Classification.zero_endpoint_gradient_identity",
+      "file": "NoiseResponse/ZeroEndpointPotential.lean",
+      "line": 105
+    }
+  ],
+  "static_source_audit": [
+    {
+      "file": "NoiseResponse/AbelEndpoints.lean",
+      "sha256": "a5e5cfbfc4a629ae55e0931ff18f38aab30b4aba482104b8755b40a057995c2b",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/AdmissibleFlatGeometry.lean",
+      "sha256": "8db90504a79c148368189b9b68a0021aa7075da19e0cfb9f74d38d6e9adc7a5d",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/AffineFlatGeometry.lean",
+      "sha256": "e0605bf837e5561de127527fde41e5db6d1b053cf6b6f1fce639df5170cf6bc1",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/AxisResponse.lean",
+      "sha256": "b40f233e43638afb37ad7330b2ecdcf4539220aa6f79cdecc9d7b0e339c1e302",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/CanonicalMatrixGeometry.lean",
+      "sha256": "aa421d8f079d7a8474bd65d177770c901ecf3bf00d42c2b301ac94caa3dfc8b9",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/CircleEndpoints.lean",
+      "sha256": "6d4e41d4b8d708a6d2fc53392eb65c6a4b5dfa42f33c203c8bd2b82714794bd4",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/ClassificationAlgebra.lean",
+      "sha256": "2c083a3f396cbd82df617acf9833d8a11511359f33053431b3cf2f3ea7baefe5",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/ClassifiedPotentialCalculus.lean",
+      "sha256": "bce8b0194b742c9f352bbd45d69aaac6dd6e5b8552813d62f52e45656afc250d",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/ClassifiedSpectralIntegral.lean",
+      "sha256": "67c6d776fb0c88eafc7fd697d535077175a7f41c8d8155efac270015856cdb84",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/ConstantRankProjector.lean",
+      "sha256": "4a85b9afae43d92fe18eda5bd88872037386ce5ec05f4a530f7ff80b72a1f639",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/ContinuousDensityUniqueness.lean",
+      "sha256": "bdfc739e6910ab680dea32a293cf086197211fa36a38efa2af4eef0e59b1e252",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/CurvatureAlgebra.lean",
+      "sha256": "2174d0a12a142148362bf2f4e91abecb9508c35c691a4f0a2bbf9058ced16f18",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/CurvatureCalculus.lean",
+      "sha256": "7a564da0f23bbc30f1e12ebb23a1cbc34a50db4f79faea290ea28bd5601f204c",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/CyclicTraceSeries.lean",
+      "sha256": "49b39fa74c83fb685409d8dccd133f6bd70570f6e480e1cf62ebef526384c39a",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/DiagonalScalarMeasure.lean",
+      "sha256": "15a0b7329b902630346e3dd57e883daae21ba64e4eb9235579385e0340b72ffd",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/EndpointPaths.lean",
+      "sha256": "cef673403a66ded53bc04831c5db8f5d8b145a71c61c97a671b7ad02c66d148c",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/EndpointPotentialCalculus.lean",
+      "sha256": "764845321ebac9a85e2caba656f833f7c3558f0aeb358d5e2eb76d4905798dfc",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/Examples.lean",
+      "sha256": "c7dcf4daaeed67270a74608d1ee947dbc69f9c0bf8b6e93090e7548a4c2796fe",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/FlatAmbientGeometry.lean",
+      "sha256": "34f10bc9b15de4fda1f2ef612680843a8f297350de618e883c1fd5b5ff45caa0",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/FlatAmbientResponse.lean",
+      "sha256": "530d6f13c4312e22050417f3eb801b568860d36e02490a68f9782cc4655ab4c7",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/FlatFieldBridge.lean",
+      "sha256": "e8b30bc044fb71b25a450720a5bb55c944e9f6a245fbaedbe7195ef15dae5e5c",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/FlatMatrixNecessity.lean",
+      "sha256": "ce27ef63aba2165ec4ac3516f645b39a9581755841135d4b32e790dc95bea47c",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/FlatResponseRealization.lean",
+      "sha256": "4c1800773d8365c4889280bd0174a145f59719694bffa3cf748163f1f9166330",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/FlatSpectralResponse.lean",
+      "sha256": "4d176448b40851694da8b1bd701a6ef3d87e212afb8320c32aef25a2c91c07ec",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/FlatUpdateGeometry.lean",
+      "sha256": "ff515c5ace389d44eab2d302abbfdd333d929d74431d67ac200ce2c9d4f149e4",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/FourierIdentification.lean",
+      "sha256": "eed7de28ab153daa3a56eac2a8fa23221aba79aa44fc09c59be90b1a2be45158",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/GeneralZeroEndpoint.lean",
+      "sha256": "3c7677d4f2a4356ab7189aef9f39811708b1474b11e5ccd0619cef6babfce953",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/GeneratingODE.lean",
+      "sha256": "491d873d4fb1fb579caf56a00bd18f34513a9e00fd5c6c3e7e9471e1682a605b",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/GlobalResidualPotential.lean",
+      "sha256": "9a51cdcf42673f979fa4918e40235145a8d87afd0401a0833b606957103515ee",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/GramSpectralPotential.lean",
+      "sha256": "74e28066a00885fc5f7e40f4ac662e58cf7a944b5104cc491f4f00117e771a80",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/IntegerSpectralAssembly.lean",
+      "sha256": "a9a35a8d22533a4c7608552655f03658b62dfc8c297cebc2d13ed39bd9654d55",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/IsotropicDensity.lean",
+      "sha256": "81481aa304d8874dc775fd7fe3d88af2ae4a2017e285d64f141c2f3a426359ba",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/IsotropicMatrixIntegral.lean",
+      "sha256": "4249f668e6819d2751fd8b661f7acec9b2083ee4bc7808b11b9ddc72fc4f696d",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/IsotropicPotentialCalculus.lean",
+      "sha256": "f09be3a08670460b6323bd10ddb20c4db303b177d14db071bd1393566ea951a7",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/IsotropicResolventAlgebra.lean",
+      "sha256": "7906c3179eb7a6791611192d92a7cb9a3c1dba2af28ae6c616ff60b6270d3fd8",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/IsotropicResolventSeries.lean",
+      "sha256": "d0dac36d63ff6fc4087bf5e0b34d686e7b8a0076487e8af92098b2837bea59c1",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/IsotropicResponseAlgebra.lean",
+      "sha256": "26a25ef5eec0b1b7ded13e3f73e4f865a3a968130a882fe1c87e84a8c41f8905",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/IsotropicScalarPotential.lean",
+      "sha256": "a142945da89837647b10ce444339f9da28946bc9e9c74422e0dc9c9147c335ee",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/IsotropicSpectralCoefficients.lean",
+      "sha256": "3b44538e47b3553b8a1711404a696039c1bb079df26f8f19ca633804883e1e9d",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/JacobianClassificationEquivalence.lean",
+      "sha256": "111e0e6912b34cb04e69f178930f713e88b2b6e6680d4d75a863ef85abe10bda",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/ManuscriptPotentialFormula.lean",
+      "sha256": "5dfda09b72e0cc097151ea0601e0c2baa2c21527d0abe80558639ab9697283ad",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/MatrixCalculus.lean",
+      "sha256": "5bcfed8982231251e8373b14d72ba23461476bcec1235cbc7cecc71a7fb3b8dc",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/MatrixDensityPositivity.lean",
+      "sha256": "c3e5ad17d4d727c64aa12cf5ca367c59493906e64c69fb3d7a78e260f85e98cb",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/MatrixIsotropicPrimitive.lean",
+      "sha256": "3b44431d41af57ab00527c8ce95b4ca034ce6efd5b04baca63f3a7056a48a13a",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/MatrixMeasureClassification.lean",
+      "sha256": "eea0edc37d75b139ee304125d9c9434f94133d75e1c28cb1f3e0e61163f1931a",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/MatrixMeasureReflection.lean",
+      "sha256": "7b53442ab8bfda171774f0c3b0ea31662470f60a275c2b598aea96a1f1725f0d",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/MatrixNecessity.lean",
+      "sha256": "889b02893229d438cbff683da13c49429c9f8019f302b403f31d425d5ee9d186",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/MatrixPositiveIntegral.lean",
+      "sha256": "ef629f4d775d6a04da28db3f5856ea03482fbdd69fcb32255c9916cd426f4af5",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/MatrixSpectralMeasure.lean",
+      "sha256": "7de9506771733730507b6a9e6622ca0fd0e5dc44ebc7e4092a0a5ccb68f1814d",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/MatrixSpectrumRepresentation.lean",
+      "sha256": "1faa2bfcd2b8222f6d01ec8f714853fd56b457e68e02e5670604ab0475ff0911",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/MeasurableSpectralNecessity.lean",
+      "sha256": "5c2129a567119328c9243d8e541188caca5da79ae54de1650f7ea4d4e33675cf",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/MeasuredFieldSufficiency.lean",
+      "sha256": "4f2259662156efcbe5c481eda02cdccb1be59451338bb7df88de2333b0c1742d",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/NativeCovarianceNecessity.lean",
+      "sha256": "f912e183929ed60a2488086a2e4c2b4e4bb006c9658348e604f0dd4fc93ced0b",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/OrthonormalProbes.lean",
+      "sha256": "6b175c9429b6a284022d7eb803f94e2e961f3426ce5e93523ad4467ea68efbbe",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/PairRepresentation.lean",
+      "sha256": "0d5eff85fbe0f146f398b1138c4e65bdd74463c5c15f49981a0f7070db18f03c",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/PowerSeriesIdentification.lean",
+      "sha256": "4c2d4d0a53efa3a5e5dfc6ab0d119dae6cf85c48383f31a77192ba6415f46b63",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/ProbeClosedness.lean",
+      "sha256": "583031ccc1f9e9a7bbd5dc6a4c68031f4cc9f022a55b026f858ce2ed6bae4a28",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/RankOnePair.lean",
+      "sha256": "839bb400806824eda16d4f57f45b3457343d3b6562bf6efe1ae56d340fb2fa84",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/RankOneResponseCoefficient.lean",
+      "sha256": "9fe7e1f7944d0ffdabf91d4dba36fc2b55d03ed44f7cd47bea6dc8fb116173e5",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/RankOneSpectralKernel.lean",
+      "sha256": "d234d83ff169f6901cad7870e2c75e2e7685bbcc312aef0e54125347f211ba59",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/RankOneSpectralMoments.lean",
+      "sha256": "82db602ef303cd7a585a4a7ca24aada6cb940d8bc640125172ced200acdc8e20",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/RankSafeTransfer.lean",
+      "sha256": "f7af8f4a4aea47a1b356339e50ea527098e685b0cde1a6fb586b4a6dde05ef69",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/ResidualGeometry.lean",
+      "sha256": "2fffdc11d635ac18de7e680e8ef292db35b053c9061a8d6abe5b6bbfeccb6b34",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/ResponseOneFormBridge.lean",
+      "sha256": "5de7251bc6fe7f85ffdd4e9eafc95bd0d78af6666c73047ffe6518ebc52876d3",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/ScalarNecessity.lean",
+      "sha256": "ad5498f540a1e0b53daa559822343d79f01c9b9ebe6f2b727307c523187d69bc",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/ScalarReflection.lean",
+      "sha256": "efe8fa4b31fa62eb399133707bcf8e60bfccc1f6bbe49b5d3b7459404a201c00",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/ScalarSpectralMeasure.lean",
+      "sha256": "a1ec7e108569b44ab9156a555051c75451454e3623daba0ffab8c1c28cabc397",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/SpectralDensityTools.lean",
+      "sha256": "06c1a91871102bf54cba2ea34684ed13761a9621446a10c4fc91849c56189f81",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/SpectralIdentification.lean",
+      "sha256": "e8b88b8111ac158caa5f3607d384e5e95c07d57b17d01e8f36d61f4ed29c0920",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/SpectralIntegralDetermination.lean",
+      "sha256": "7d6e76f97dcd2136a4089f82818685bde77276771b8e622cf96b908f346b4a8c",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/SpectralIsotropy.lean",
+      "sha256": "907c60f092432a7bbfec0198bd48491ec8dd0f5e5c978a1f384b789647ea7e90",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/SpectralNativeBridge.lean",
+      "sha256": "2707f6194488e2ec52952ce4e814aea31a02bfb6e860ee7ca54d0d6e2a44ad76",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/SpectralNecessity.lean",
+      "sha256": "a8860a212a175c30bc49d0d508cc24f2922b0287cad869995e7cb65cc11a22d0",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/SpectralReality.lean",
+      "sha256": "9ac0fd7cf3340d64c70b8309b8966b7a7dfd7d17ad2df196100a9c98088ddc23",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/SpectralResolvent.lean",
+      "sha256": "2ebab290ca371fe4d3e551041505b40ac35820443fb637d411706a5b4c640cf1",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/SupportedTracePotential.lean",
+      "sha256": "1babd96c61d7917965a3633f9708ea324d04fe8604038d3188b01d668b6251d1",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/Theorem3.lean",
+      "sha256": "1a180b4493a8f6653d0b3379465dedabae553011f9fdba217ac5fec7d34f3f88",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/Theorem3Complete.lean",
+      "sha256": "70a84189abf4d849536d5541833a80c001e6ded617b49e5a606be85eb5891ce6",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/Theorem3GeometryIdentities.lean",
+      "sha256": "c0a2687fe52e9c8b34570751fcd305d9692753c0ca6da841c95c5728f945002d",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/TransferIsometry.lean",
+      "sha256": "f5c55602f0a44584dcd849580b53b9b7f953f39dae3680e294b4508248ca6d2c",
+      "forbidden_tokens": []
+    },
+    {
+      "file": "NoiseResponse/ZeroEndpointPotential.lean",
+      "sha256": "bbd809e22de67db577058f455832ab50e4bf78ad6bbf804417eb114a53bd4ff6",
+      "forbidden_tokens": []
+    }
+  ]
+}
